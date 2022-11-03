@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 400px;
+    background-color: #e2e2e2;
+
+    border: 1px solid black;
+}
+
+.cover{
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    padding-top: 100px;
+}
+
+.cover >p{
+    text-align: center;
+    color: #5f5f5f;
+    font-family: 'Cookie', cursive;
+    
+}
+
+.the-wedding{
+    font-size: 2rem;
+}
+
+.nama-mempelai{
+    font-size:3rem;
+
+}
+
+.dalil{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #4e6345;
+    padding: 40px;
+    padding-top: 20px;
+    background-color: white;
+    font-family: 'PT Sans', sans-serif;
+
+ 
+}
+
+.mempelai{
+    background-image: url('bgcolor2.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    padding-top: 100px;
+    height: 1000px;
+    padding-bottom: 80px;
+}
+
+.mempelai >h1{
+    text-align: center;
+    color: white;
+    font-family: 'Cookie', cursive;
+}
+
+.mempelai-pria, .mempelai-wanita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.image-mempelai{
+    width: 240px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.mempelai-nama{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #718060;
+    margin-top: 20px;
+    font-family: 'Cookie', cursive;
+
+    font-weight: bold;
+}
+
+.orang-tua{
+    text-align: center;
+    width: 100px;
+    font-size: 0.7rem;
+    font-family: 'Dosis', sans-serif;
+    color:#718060; 
+}
+
+.mempelai-text{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color:#718060; 
+
+}
+
+
+.count-down{
+
+    background-color: white;
+    padding: 40px;
+    padding-top: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+}
+
+.hitung{
+    border: 1px solid #718060;
+    color: #718060;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Dosis',sans-serif;
+    margin: 5px;
+    width: 33px;
+}
+
+.hitung p{
+    font-size: 1.8rem;
+    font-family: 'PT sans', sans-serif;
+    margin-bottom: 3px;
+}
+
+.count-down h1{
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    color:#718060; 
+}
+
+
+
+.agenda{
+    background-image: url('bgcolor3.jpg');
+    text-align: center;
+    height: 1000px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.agenda h1{
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    color:white; 
+}
+
+
+.akad, .resepsi{
+    width: 280px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.akad h2, .resepsi h2{
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    color: #718060;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.akad p, .resepsi p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #718060;
+}
+
+.alamat{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: #718060;
+
+}
+
+.alamat p{
+    font-size: 1rem;
+}
+
+
+.btn-alamat{
+    width: 240px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #718060;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.btn-alamat:hover{
+    background-color: #454e3c;
+    cursor: pointer;
+}
+
+.ucapan{
+    background-color: white;
+    padding: 20px 30px;
+    padding-bottom: 50px;
+}
+
+.ucapan h1{
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    color: #718060;
+    margin-bottom: 30px;
+}
+
+
+.ucapan-card{
+    width: 280px;
+    margin: 0 auto;
+
+}
+
+.ucapan-card p {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    color: #718060;
+    font-family: 'Dosis',sans-serif;
+    font-weight: bold;
+}
+
+.ucapan-card input{
+    width: 260px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #718060;
+    font-family: 'Dosis', sans-serif;
+    height: 20px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #718060;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.ucapan-card textarea{
+    width: 260px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #718060;
+    font-family: 'Dosis', sans-serif;
+    height: 100px;
+    resize: vertical;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #718060;
+    padding: 10px;
+
+}
+
+.ucapan-card textarea::placeholder{
+    font-weight: normal
+}
+
+
+.ucapan-card input::placeholder{
+    font-weight: normal;
+
+}
+
+.kirim-ucapan{
+    border-radius: 5px;
+    width: 80px;
+    padding: 10px;
+    color: white;
+    background-color: #718060;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.kirim-ucapan:hover{
+    background-color: #454e3c;
+    cursor: pointer;
+}
+
+
+.komentar{
+    height: 400px;
+    width: 290px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #deffe9;
+    
+    
+
+}
+
+#messages{
+    list-style: none;
+    color: white;
+
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.komen-chat {
+  margin: 0 auto;
+  width: 270px;
+  min-height:10px;
+  color: white;
+  padding: 10px;
+  background-color: #718060eb;
+  resize: none;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+ 
+
+}
+
+.komen-chat p{
+    margin-top: 10px;
+    float: right;
+    font-size: .7rem;
+}
+
+.pengirim{
+  margin-left: 10px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  color: #718060;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 380px){
+
+    .container{
+        width: 380px;
+
+    }
+
+    .btn-alamat{
+        width: 230px;
+    }
+    .mempelai-pria, .mempelai-wanita{
+        width: 290px;
+    }
+
+    .akad, .resepsi{
+        width: 280px;
+    }
+
+    .dalil{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 370px){
+
+    .container{
+        width: 370px;
+    }
+    .mempelai-pria, .mempelai-wanita{
+        width: 220px;
+    }
+    .btn-alamat{
+        width: 250px;
+    }
+
+    .akad, .resepsi{
+        width: 270px;
+    }
+
+    .dalil{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 350px){
+
+    .container{
+        width: 350px;
+    }
+
+    .btn-alamat{
+        width:210px;
+    }
+    .mempelai-pria, .mempelai-wanita{
+        width: 260px;
+    }
+
+    .akad, .resepsi{
+        width: 260px;
+    }
+}
+@media screen and (max-width: 330px){
+
+    .container{
+        width: 330px;
+    }
+}
+@media screen and (max-width: 320px){
+
+    .container{
+        width: 320px;
+    }
+}
+
+.dalil > img{
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.gambar-cincin{
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.gambar-cincin img{
+    width: 30px;
+
+}
+
+
+::-webkit-scrollbar{
+width: 2px;
+}
+
+::-webkit-scrollbar-track{
+background: none;
+}
+
+::-webkit-scrollbar-thumb{
+background: #718060;
+border-radius: 5px;
+}
+
+
+
